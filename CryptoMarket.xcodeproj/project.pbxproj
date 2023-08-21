@@ -22,12 +22,14 @@
 		7146F2B92A933236004FF39E /* MarketResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7146F2B82A933236004FF39E /* MarketResponse.swift */; };
 		7146F2CA2A933639004FF39E /* RxBlocking.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7146F2C52A93362B004FF39E /* RxBlocking.xcframework */; };
 		7146F2CB2A933639004FF39E /* RxBlocking.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7146F2C52A93362B004FF39E /* RxBlocking.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7146F2CC2A933639004FF39E /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7146F2C42A93362B004FF39E /* RxCocoa.xcframework */; };
-		7146F2CD2A933639004FF39E /* RxCocoa.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7146F2C42A93362B004FF39E /* RxCocoa.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7146F2CE2A933639004FF39E /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7146F2C32A93362A004FF39E /* RxRelay.xcframework */; };
 		7146F2CF2A933639004FF39E /* RxRelay.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7146F2C32A93362A004FF39E /* RxRelay.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7146F2D02A933639004FF39E /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7146F2C22A933629004FF39E /* RxSwift.xcframework */; };
 		7146F2D12A933639004FF39E /* RxSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7146F2C22A933629004FF39E /* RxSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7146F2FC2A934FFF004FF39E /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7146F2FA2A934FEE004FF39E /* RxCocoa.xcframework */; };
+		7146F2FD2A934FFF004FF39E /* RxCocoa.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7146F2FA2A934FEE004FF39E /* RxCocoa.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7146F2FE2A935024004FF39E /* RxCocoaRuntime.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7146F2F62A934F98004FF39E /* RxCocoaRuntime.xcframework */; };
+		7146F2FF2A935024004FF39E /* RxCocoaRuntime.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7146F2F62A934F98004FF39E /* RxCocoaRuntime.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,9 +57,10 @@
 			dstSubfolderSpec = 10;
 			files = (
 				7146F2CF2A933639004FF39E /* RxRelay.xcframework in Embed Frameworks */,
+				7146F2FD2A934FFF004FF39E /* RxCocoa.xcframework in Embed Frameworks */,
 				7146F2D12A933639004FF39E /* RxSwift.xcframework in Embed Frameworks */,
 				7146F2CB2A933639004FF39E /* RxBlocking.xcframework in Embed Frameworks */,
-				7146F2CD2A933639004FF39E /* RxCocoa.xcframework in Embed Frameworks */,
+				7146F2FF2A935024004FF39E /* RxCocoaRuntime.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,8 +86,9 @@
 		7146F2B82A933236004FF39E /* MarketResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketResponse.swift; sourceTree = "<group>"; };
 		7146F2C22A933629004FF39E /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = RxSwift.xcframework; sourceTree = "<group>"; };
 		7146F2C32A93362A004FF39E /* RxRelay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = RxRelay.xcframework; sourceTree = "<group>"; };
-		7146F2C42A93362B004FF39E /* RxCocoa.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = RxCocoa.xcframework; sourceTree = "<group>"; };
 		7146F2C52A93362B004FF39E /* RxBlocking.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = RxBlocking.xcframework; sourceTree = "<group>"; };
+		7146F2F62A934F98004FF39E /* RxCocoaRuntime.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = RxCocoaRuntime.xcframework; sourceTree = "<group>"; };
+		7146F2FA2A934FEE004FF39E /* RxCocoa.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = RxCocoa.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,9 @@
 			files = (
 				7146F2CE2A933639004FF39E /* RxRelay.xcframework in Frameworks */,
 				7146F2D02A933639004FF39E /* RxSwift.xcframework in Frameworks */,
+				7146F2FC2A934FFF004FF39E /* RxCocoa.xcframework in Frameworks */,
 				7146F2CA2A933639004FF39E /* RxBlocking.xcframework in Frameworks */,
-				7146F2CC2A933639004FF39E /* RxCocoa.xcframework in Frameworks */,
+				7146F2FE2A935024004FF39E /* RxCocoaRuntime.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,9 +185,10 @@
 			isa = PBXGroup;
 			children = (
 				7146F2C52A93362B004FF39E /* RxBlocking.xcframework */,
-				7146F2C42A93362B004FF39E /* RxCocoa.xcframework */,
 				7146F2C32A93362A004FF39E /* RxRelay.xcframework */,
 				7146F2C22A933629004FF39E /* RxSwift.xcframework */,
+				7146F2F62A934F98004FF39E /* RxCocoaRuntime.xcframework */,
+				7146F2FA2A934FEE004FF39E /* RxCocoa.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
